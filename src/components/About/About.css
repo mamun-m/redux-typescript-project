@@ -1,0 +1,104 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 170px;
+  gap: 80px;
+}
+.about-content-first {
+  text-align: center;
+}
+.about-content-first h1 {
+  font-size: 78px;
+  padding: 0 30px;
+  margin: 70px 0;
+}
+.about-content-left {
+  display: flex;
+  gap: 50px;
+}
+.about-text-part {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about-text-part p {
+  font-size: 18px;
+  font-weight: 700;
+  min-width: 800px;
+}
+.about-content-left img {
+  width: 400px;
+  height: 400px;
+}
+.about-descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-skill {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.about-skill p {
+  min-width: 150px;
+  font-family: "outfit";
+  font-weight: 800;
+  font-size: 24px;
+}
+.about-skill hr {
+  border: none;
+  outline: none;
+  height: 8px;
+  background: linear-gradient(
+    38deg,
+    rgba(0, 189, 255, 1) 24%,
+    rgba(255, 231, 4, 1) 56%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-radius: 50px;
+}
+.about-content-right {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.about-end-year {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: 1s ease;
+}
+.about-end-year:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.about-end-year span {
+  font-size: 50px;
+  font-weight: 900;
+  background: linear-gradient(
+    38deg,
+    rgba(40, 179, 246, 1) 6%,
+    rgba(84, 164, 71, 1) 50%,
+    rgba(0, 87, 224, 1) 71%,
+    rgba(0, 162, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 768px) {
+  .about-content-first h1 {
+    font-size: 40px;
+  }
+  .about-content-left {
+    flex-direction: column;
+  }
+  .about-text-part p {
+    min-width: 200px;
+  }
+}

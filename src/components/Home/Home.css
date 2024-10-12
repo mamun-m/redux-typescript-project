@@ -1,0 +1,78 @@
+.Home {
+  margin: 40px 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.home-image img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  transition: 0.4s;
+  margin: 100px 0;
+}
+.home-image img:hover {
+  -webkit-box-shadow: 5px 5px 85px 2px rgba(228, 255, 25, 1);
+  -moz-box-shadow: 5px 5px 85px 2px rgba(228, 255, 25, 1);
+  box-shadow: 5px 5px 85px 2px rgba(228, 255, 25, 1);
+}
+.home-descriptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-descriptions h1 {
+  font-size: 68px;
+  font-weight: 800;
+  text-align: center;
+}
+.home-descriptions span {
+  background: linear-gradient(
+    38deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(0, 156, 26, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home-descriptions p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  margin-top: 20px;
+}
+.home-button {
+  display: flex;
+  gap: 70px;
+}
+.home-button button {
+  width: 250px;
+  height: 70px;
+  border-radius: 30px;
+  outline: none;
+  font-size: 22px;
+}
+.connect-button {
+  background: linear-gradient(
+    38deg,
+    rgba(222, 15, 105, 1) 0%,
+    rgba(128, 111, 214, 1) 58%
+  );
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+.connect-button:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.my-resume {
+  border: 2px solid steelblue;
+  transition: 0.3s;
+}
+.my-resume:hover {
+  border: 2px solid rgb(8, 167, 88);
+  transition: 0.3s;
+}
